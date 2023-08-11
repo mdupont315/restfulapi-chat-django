@@ -1,4 +1,4 @@
-# Django Real-Time Chat API
+# RESTful API with Django for Chat
 
 ## Description
 A high-performance, secure, and scalable real-time chat API built with Django. This API allows developers to easily build chat applications that can handle large amounts of messages and users.
@@ -21,7 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 1. Clone the repository:  
 ```git
-https://github.com/brianobot/Chat.git
+https://github.com/Senguly/restfulapi-chat-django.git
 ```
   
 2. Setup Virtual Environment:  
@@ -63,7 +63,3 @@ A user can go into and interact with a chat-room by going to the chat-room endpo
 
 Once in the chat-room view, a websocket is created for real-time connection with the server and hence the other connected user.    
   Websocket url - `ws/chat/<chat-room-id>/`
-
-
-## Maintainer:
-- Brian Obot <brianobot9@gmail.com>
